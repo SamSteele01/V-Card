@@ -1,0 +1,95 @@
+body {
+  width: 1200px;
+  height: 450;
+}
+
+header {
+  background-color: #2B3A48;
+  color: white;
+  height: 90px;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0px;
+  padding: 10px;
+}
+
+header:after {
+content: " ";
+    display:block;
+    position: relative;
+top:0px;left:0px;
+    width:100%;
+    height:36px;
+    background: linear-gradient(#2B3A48 0%, transparent 0%), linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 linear-gradient(45deg, #F3F3F3 33.33%, #2B3A48 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#2B3A48 0%, transparent 0%), -webkit-linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 -webkit-linear-gradient(45deg, #F3F3F3 33.33%, #2B3A48 33.33%) 0 0%;
+    background: -o-linear-gradient(#2B3A48 0%, transparent 0%), -o-linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 -o-linear-gradient(45deg, #F3F3F3 33.33%, #2B3A48 33.33%) 0 0%;
+    background: -moz-linear-gradient(#2B3A48 0%, transparent 0%), -moz-linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 -moz-linear-gradient(45deg, #F3F3F3 33.33%, #2B3A48 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 18px 27px, 18px 27px;
+    }
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F3F3F3;
+}
+
+div.the-basics {
+  flex-basis: 25%;
+  margin: 0 0 0 40px;
+  padding: 30px;
+  color: #528484;
+}
+
+div.the-story {
+  flex-basis: 45%;
+  margin: 0px;
+  padding: 30px;
+  color: #528484;
+}
+
+.the-story p {
+  padding: 0 30px;
+  border-left: 1px dotted #528484;
+}
+
+.the-story h2 {
+  padding-left: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: serif;
+  font-weight: bold;
+  color: black;
+}
+
+div.image {
+  flex-basis: 20%;
+  align-content: center;
+  align-items: center;
+  /*padding: 50%;*/
+  margin: 30px;
+  padding: 10px;
+  /*inline-block:;*/
+  /*vertical-align: middle;*/
+  position: relative;
+}
+
+.image img {
+  height: 110px;
+  width: 110px;
+  border-radius: 55px;
+  /*inline-block:;*/
+  /*vertical-align: middle;*/
+  position: absolute;
+}
