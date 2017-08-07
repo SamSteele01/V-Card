@@ -1,10 +1,10 @@
 body {
   width: 1200px;
-  height: 450;
+  height: 500;
 }
 
 header {
-  background-color: #2B3A48;
+  background-color: #1D1D1D;
   color: white;
   height: 90px;
 
@@ -28,10 +28,10 @@ content: " ";
 top:0px;left:0px;
     width:100%;
     height:36px;
-    background: linear-gradient(#2B3A48 0%, transparent 0%), linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 linear-gradient(45deg, #F3F3F3 33.33%, #2B3A48 33.33%) 0 0%;
-    background: -webkit-linear-gradient(#2B3A48 0%, transparent 0%), -webkit-linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 -webkit-linear-gradient(45deg, #F3F3F3 33.33%, #2B3A48 33.33%) 0 0%;
-    background: -o-linear-gradient(#2B3A48 0%, transparent 0%), -o-linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 -o-linear-gradient(45deg, #F3F3F3 33.33%, #2B3A48 33.33%) 0 0%;
-    background: -moz-linear-gradient(#2B3A48 0%, transparent 0%), -moz-linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 -moz-linear-gradient(45deg, #F3F3F3 33.33%, #2B3A48 33.33%) 0 0%;
+    background: linear-gradient(#1D1D1D 0%, transparent 0%), linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 linear-gradient(45deg, #F3F3F3 33.33%, #1D1D1D 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#1D1D1D 0%, transparent 0%), -webkit-linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 -webkit-linear-gradient(45deg, #F3F3F3 33.33%, #1D1D1D 33.33%) 0 0%;
+    background: -o-linear-gradient(#1D1D1D 0%, transparent 0%), -o-linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 -o-linear-gradient(45deg, #F3F3F3 33.33%, #1D1D1D 33.33%) 0 0%;
+    background: -moz-linear-gradient(#1D1D1D 0%, transparent 0%), -moz-linear-gradient(135deg, #F3F3F3 33.33%, transparent 33.33%) 0 0%, #F3F3F3 -moz-linear-gradient(45deg, #F3F3F3 33.33%, #1D1D1D 33.33%) 0 0%;
     background-repeat: repeat-x;
     background-size: 0px 100%, 18px 27px, 18px 27px;
     }
@@ -45,7 +45,7 @@ main {
 
 div.the-basics {
   flex-basis: 25%;
-  margin: 0 0 0 40px;
+  margin: 0 0 0 100px;
   padding: 30px;
   color: #528484;
 }
@@ -67,7 +67,7 @@ div.the-story {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 32px;
   font-family: serif;
   font-weight: bold;
   color: black;
@@ -78,8 +78,8 @@ div.image {
   align-content: center;
   align-items: center;
   /*padding: 50%;*/
-  margin: 30px;
-  padding: 10px;
+  margin: 0px;
+  padding: 120px 20px;
   /*inline-block:;*/
   /*vertical-align: middle;*/
   position: relative;
@@ -88,6 +88,7 @@ div.image {
 .image img {
   height: 110px;
   width: 110px;
+  margin: auto;
   border-radius: 55px;
   /*inline-block:;*/
   /*vertical-align: middle;*/
